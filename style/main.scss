@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'SourceSansPro-Regular';
+	src: url('/static/static/fonts/SourceSansPro-Regular.eot');
+	src: local('☺'), 
+	url('/static/static/fonts/SourceSansPro-Regular.woff') format('woff'), 
+	url('/static/static/fonts/SourceSansPro-Regular.ttf') format('truetype'), 
+	url('/static/static/fonts/SourceSansPro-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSansPro-SemiBold';
+	src: url('/static/static/fonts/SourceSansPro-SemiBold.eot');
+	src: local('☺'), 
+	url('/static/static/fonts/SourceSansPro-SemiBold.woff') format('woff'),
+	url('/static/static/fonts/SourceSansPro-SemiBold.ttf') format('truetype'), 
+	url('/static/fonts/SourceSansPro-SemiBold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@import '/style/colors';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 20px;
+	background-color: $grey-dark;
+	color: $black;
+}
+
+.container {
+	max-width: 1440px;
+	padding: 32px;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 35px;
+}
+
+.subtitle {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.price {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+}
